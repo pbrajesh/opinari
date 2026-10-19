@@ -1,0 +1,33 @@
+# Welcome to Jekyll!
+
+title: Reflections on Books, News, and People
+email: rajesh@deepinter.link
+description: >- # ignore new linkes until baseurl
+    Opinions on books, news, and people. A personal blog sharing my thoughts and reflections.
+baseurl: "/opinions" # the subpath of your site, e.g. /blog
+url: "https://pbrajesh.github.io" # the base hostname & protocol for your site, e.g. http://example.com
+
+author:
+  name: Rajesh Babu Rajendran
+  email: "rajesh@deepinter.link"
+
+# Build settings
+remote_theme: jekyll/minima
+
+plugins:
+  - jekyll-feed
+  - jekyll-remote-theme
+
+minima:
+  skin: dark
+  show_excerpts: true 
+  date_format: "%Y/%b/%e %I:%M %p %z" # http://shopify.github.io/liquid/filters/date/ # https://strftime.net/
+  social_links:
+    - title: GitHub
+      icon: github
+      url: "https://github.com/pbrajesh/opinions"
+    - title: X (formerly Twitter)
+      icon: x-twitter
+      url: "https://x.com/rajesh_the_one"
+
+
